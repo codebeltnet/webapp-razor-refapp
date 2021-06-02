@@ -1,0 +1,6 @@
+FROM codebeltnet/web-cdn-origin:1.2.0
+
+WORKDIR /cdnroot
+ADD approot .
+
+WORKDIR /app

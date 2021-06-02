@@ -1,0 +1,10 @@
+version: '3.4'
+
+services:
+  codebelt.webapp.razor:
+    environment:
+      - ASPNETCORE_ENVIRONMENT=LocalDevelopment
+    ports:
+      - "80"
+    volumes:
+      - ${APPDATA}/Microsoft/UserSecrets:/root/.microsoft/usersecrets:ro

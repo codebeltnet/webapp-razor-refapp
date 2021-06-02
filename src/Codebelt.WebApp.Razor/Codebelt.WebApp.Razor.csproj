@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <CopyRefAssembliesToPublishDirectory>false</CopyRefAssembliesToPublishDirectory>
+    <UserSecretsId>4a569ef5-cf0f-4451-ab2f-95aab64b9822</UserSecretsId>
+    <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+    <DockerComposeProjectPath>..\..\docker-compose.dcproj</DockerComposeProjectPath>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Codebelt.Bootstrapper.Web" Version="1.0.0" />
+    <PackageReference Include="Cuemon.AspNetCore.Razor.TagHelpers" Version="6.2.0" />
+    <PackageReference Include="Cuemon.Extensions.AspNetCore" Version="6.2.0" />
+    <PackageReference Include="Cuemon.Extensions.AspNetCore.Mvc.RazorPages" Version="6.2.0" />
+    <PackageReference Include="Cuemon.Extensions.Core" Version="6.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation" Version="5.0.6" />
+    <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.10.13" />
+  </ItemGroup>
+
+</Project>
