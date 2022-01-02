@@ -1,7 +1,7 @@
-using Microsoft.Extensions.Hosting;
 using Codebelt.Bootstrapper.Web;
+using Microsoft.Extensions.Hosting;
 
-namespace Codebelt.WebApp.Razor
+namespace Codebelt.Template.WebApp.Razor
 {
     public class Program : WebProgram<Startup>
     {

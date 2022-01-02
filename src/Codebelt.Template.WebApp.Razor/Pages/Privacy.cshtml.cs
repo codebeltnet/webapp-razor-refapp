@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.Extensions.Logging;
 
-namespace Codebelt.WebApp.Razor.Pages
+namespace Codebelt.Template.WebApp.Razor.Pages
 {
     public class PrivacyModel : PageModel
     {

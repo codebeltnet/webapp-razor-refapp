@@ -1,20 +1,20 @@
 version: '3.4'
 
 services:
-  codebelt.webapp.razor:
+  codebelt.template.webapp.razor:
     image: ${DOCKER_REGISTRY-}codebeltwebapprazor
     build:
-      context: src/Codebelt.WebApp.Razor/.
+      context: src/Codebelt.Template.WebApp.Razor/.
       dockerfile: Dockerfile
-  codebelt.webapp.razor.app:
-    image: codebeltnet/web-cdn-origin:1.2.0
+  codebelt.template.webapp.razor.app:
+    image: codebeltnet/web-cdn-origin:1.2.1
     ports:
       - "8010:80"
     volumes:
-      - ./src/Codebelt.WebApp.Razor/approot:/cdnroot
-  codebelt.webapp.razor.cdn:
-    image: codebeltnet/web-cdn-origin:1.2.0
+      - ./src/Codebelt.Template.WebApp.Razor/approot:/cdnroot
+  codebelt.template.webapp.razor.cdn:
+    image: codebeltnet/web-cdn-origin:1.2.1
     ports:
       - "8020:80"
     volumes:
-      - ./src/Codebelt.WebApp.Razor/cdnroot:/cdnroot
+      - ./src/Codebelt.Template.WebApp.Razor/cdnroot:/cdnroot

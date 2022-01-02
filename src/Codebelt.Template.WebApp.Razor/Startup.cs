@@ -1,16 +1,16 @@
-using Microsoft.AspNetCore.Builder;
-using Microsoft.Extensions.Configuration;
-using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.Hosting;
 using Codebelt.Bootstrapper.Web;
 using Cuemon.AspNetCore.Razor.TagHelpers;
 using Cuemon.Extensions.AspNetCore.Configuration;
 using Cuemon.Extensions.AspNetCore.Diagnostics;
 using Cuemon.Extensions.AspNetCore.Http.Headers;
 using Cuemon.Extensions.Hosting;
+using Microsoft.AspNetCore.Builder;
+using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 
-namespace Codebelt.WebApp.Razor
+namespace Codebelt.Template.WebApp.Razor
 {
     public class Startup : WebStartup
     {

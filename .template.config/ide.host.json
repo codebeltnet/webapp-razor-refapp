@@ -1,0 +1,7 @@
+{
+    "$schema": "http://json.schemastore.org/vs-2017.3.host",
+    "order": 0,
+    "icon": "icon.png",
+    "learnMoreLink": "https://github.com/codebeltnet/webapp-razor-refapp",
+    "supportsDocker": true
+}

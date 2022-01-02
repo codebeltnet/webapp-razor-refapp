@@ -1,8 +1,7 @@
-﻿using System.Threading;
-using Microsoft.AspNetCore.Mvc.RazorPages;
+﻿using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.Extensions.Logging;
 
-namespace Codebelt.WebApp.Razor.Pages
+namespace Codebelt.Template.WebApp.Razor.Pages
 {
     public class IndexModel : PageModel
     {

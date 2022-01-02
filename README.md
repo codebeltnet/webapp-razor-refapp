@@ -4,9 +4,13 @@ Sample ASP.NET Core Web App for Razor reference application, powered by Codebelt
 
 ## Getting Started
 
-Until I have figured out a way to publish a NuGet package with a combination of code and assemblies, this is the way to go:
+There are two ways to use this reference application:
 
-`git clone https://github.com/codebeltnet/webapp-razor-refapp.git`
+You can clone this project: `git clone https://github.com/codebeltnet/webapp-razor-refapp.git`
+
+-or-
+
+You can install a new template using `dotnet new --install Codebelt.Template.WebApp.Razor` and hereafter do something like `dotnet new cb-webapp -o %USERPROFILE%\source\repos\MyApp7`
 
 Note:
 

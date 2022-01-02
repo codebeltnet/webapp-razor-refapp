@@ -6,7 +6,7 @@
     <ProjectGuid>2ed64f38-1e85-4cdf-8b0d-6d53ff660304</ProjectGuid>
     <DockerLaunchAction>LaunchBrowser</DockerLaunchAction>
     <DockerServiceUrl>{Scheme}://localhost:{ServicePort}</DockerServiceUrl>
-    <DockerServiceName>codebelt.webapp.razor</DockerServiceName>
+    <DockerServiceName>codebelt.template.webapp.razor</DockerServiceName>
   </PropertyGroup>
   <ItemGroup>
     <None Include="docker-compose.override.yml">

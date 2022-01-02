@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.31205.134
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32014.148
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Codebelt.WebApp.Razor", "src\Codebelt.WebApp.Razor\Codebelt.WebApp.Razor.csproj", "{968C2109-E91D-4A62-B8AA-2A2E4034A1A7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Codebelt.Template.WebApp.Razor", "src\Codebelt.Template.WebApp.Razor\Codebelt.Template.WebApp.Razor.csproj", "{968C2109-E91D-4A62-B8AA-2A2E4034A1A7}"
 EndProject
 Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{2ED64F38-1E85-4CDF-8B0D-6D53FF660304}"
 EndProject
