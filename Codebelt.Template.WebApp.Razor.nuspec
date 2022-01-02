@@ -25,8 +25,8 @@ Availability: .NET 5.0
 - ADDED Docker configurations that consist of three endpoints; the app itself, static content for app and static content for CDN provider
         </releaseNotes>
         <authors>gimlichael</authors>
-        <icon>./content/.template.config/icon.png</icon>
-        <readme>./content/README.md</readme>
+        <icon>./.template.config/icon.png</icon>
+        <readme>./README.md</readme>
         <license type="expression">MIT</license>
         <projectUrl>https://www.codebelt.net/</projectUrl>
         <copyright>Copyright © Geekle 2021-2022. All rights reserved.</copyright>
@@ -37,6 +37,6 @@ Availability: .NET 5.0
         <tags>web mvc razorpages razor pages reference project asp.net asp net core app cdn application template csharp solution docker</tags>
     </metadata>
     <files>
-        <file src="**" exclude="**\bin\**\*;**\obj\**\*;**\*.user;**\.vs\**\*;**\.git\**\*" target="content" />
+        <file src="**" exclude="**\bin\**\*;**\obj\**\*;**\*.user;**\.vs\**\*;**\.git\**\*;**\.azure\**\*" target="content" />
     </files>
 </package>
