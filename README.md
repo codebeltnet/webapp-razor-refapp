@@ -10,7 +10,21 @@ You can clone this project: `git clone https://github.com/codebeltnet/webapp-raz
 
 -or-
 
-You can install a new template using `dotnet new --install Codebelt.Template.WebApp.Razor` and hereafter do something like `dotnet new cb-webapp -o %USERPROFILE%\source\repos\MyApp7`
+Open Powershell and run the following command to install the solution template:
+
+```powershell
+dotnet new --install Codebelt.Template.WebApp.Razor
+```
+
+This installs the `ASP.NET Core Web App by Codebelt` template globally on your machine and can then be used from either Visual Studio UI or .NET CLI. If the latter is chosen, navigate to a new directory where you want to place the solution, and copy the path of the opened directory (eg. %USERPROFILE%\source\repos\MyRazorApp).
+
+Run the following command: 
+
+```powershell
+dotnet new cb-webapp -o C:\Users\gimlichael\source\repos\MyRazorApp
+```
+
+In this example I am naming my new solution `MyRazorApp` and my %USERPROFILE% points to `C:\Users\gimlichael`. The rest should be pretty self explanatory.
 
 Note:
 
@@ -21,28 +35,28 @@ Note:
 
 The solution file, docker-compose and preview nuget sources is placed in the root of the repo.
 
-The project itself, Codebelt.WebApp.Razor, is placed in `src`.
+The project itself, Codebelt.Template.WebApp.Razor, is placed in `src`.
 
 Example of structure:
 
-```
-/Codebelt.WebApp.Razor.sln
+```text
+/Codebelt.Template.WebApp.Razor.sln
 /docker-compose.yml
 /NuGet.config
-/src/Codebelt.WebApp.Razor/approot/<static files tailored to the app>
-/src/Codebelt.WebApp.Razor/cdnroot/<static files shared by many>
-/src/Codebelt.WebApp.Razor/Pages/<default razor pages by Microsoft>
-/src/Codebelt.WebApp.Razor/appsettings.Development.json
-/src/Codebelt.WebApp.Razor/appsettings.json
-/src/Codebelt.WebApp.Razor/appsettings.LocalDevelopment.json
-/src/Codebelt.WebApp.Razor/appsettings.Production.json
-/src/Codebelt.WebApp.Razor/appsettings.Staging.json
-/src/Codebelt.WebApp.Razor/Codebelt.WebApp.Razor.csproj
-/src/Codebelt.WebApp.Razor/Dockerfile
-/src/Codebelt.WebApp.Razor/Dockerfile.app-static
-/src/Codebelt.WebApp.Razor/Dockerfile.cdn-static
-/src/Codebelt.WebApp.Razor/Program.cs
-/src/Codebelt.WebApp.Razor/Startup.cs
+/src/Codebelt.Template.WebApp.Razor/approot/<static files tailored to the app>
+/src/Codebelt.Template.WebApp.Razor/cdnroot/<static files shared by many>
+/src/Codebelt.Template.WebApp.Razor/Pages/<default razor pages by Microsoft>
+/src/Codebelt.Template.WebApp.Razor/appsettings.Development.json
+/src/Codebelt.Template.WebApp.Razor/appsettings.json
+/src/Codebelt.Template.WebApp.Razor/appsettings.LocalDevelopment.json
+/src/Codebelt.Template.WebApp.Razor/appsettings.Production.json
+/src/Codebelt.Template.WebApp.Razor/appsettings.Staging.json
+/src/Codebelt.Template.WebApp.Razor/Codebelt.Template.WebApp.Razor.csproj
+/src/Codebelt.Template.WebApp.Razor/Dockerfile
+/src/Codebelt.Template.WebApp.Razor/Dockerfile.app-static
+/src/Codebelt.Template.WebApp.Razor/Dockerfile.cdn-static
+/src/Codebelt.Template.WebApp.Razor/Program.cs
+/src/Codebelt.Template.WebApp.Razor/Startup.cs
 ```
 
 ## Environments
@@ -84,4 +98,4 @@ You can test the 3 environments yourself (nothing fancy; just the sample code pr
 
 ---
 
-Code with passion; love your code; deliver with pride 👨‍💻️🔥❤️🚀🤘
+Code with passion; love your code; deliver with confidence 👨‍💻️🔥❤️🚀
