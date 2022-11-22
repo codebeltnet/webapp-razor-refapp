@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
-    <TargetFramework>net6.0</TargetFramework>
+    <TargetFramework>net7.0</TargetFramework>
     <CopyRefAssembliesToPublishDirectory>false</CopyRefAssembliesToPublishDirectory>
     <UserSecretsId>4a569ef5-cf0f-4451-ab2f-95aab64b9822</UserSecretsId>
     <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
@@ -9,13 +9,13 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Codebelt.Bootstrapper.Web" Version="1.0.1" />
-    <PackageReference Include="Cuemon.AspNetCore.Razor.TagHelpers" Version="6.3.0" />
-    <PackageReference Include="Cuemon.Extensions.AspNetCore" Version="6.3.0" />
-    <PackageReference Include="Cuemon.Extensions.AspNetCore.Mvc.RazorPages" Version="6.3.0" />
-    <PackageReference Include="Cuemon.Extensions.Core" Version="6.3.0" />
-    <PackageReference Include="Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation" Version="6.0.1" />
-    <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.14.0" />
+    <PackageReference Include="Codebelt.Bootstrapper.Web" Version="1.1.0" />
+    <PackageReference Include="Cuemon.AspNetCore.Razor.TagHelpers" Version="7.0.0" />
+    <PackageReference Include="Cuemon.Extensions.AspNetCore" Version="7.0.0" />
+    <PackageReference Include="Cuemon.Extensions.AspNetCore.Mvc.RazorPages" Version="7.0.0" />
+    <PackageReference Include="Cuemon.Extensions.Core" Version="7.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation" Version="7.0.0" />
+    <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.17.0" />
   </ItemGroup>
 
 </Project>
