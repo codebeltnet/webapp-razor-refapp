@@ -1,11 +1,11 @@
-FROM mcr.microsoft.com/dotnet/aspnet:7.0-alpine AS base
+FROM mcr.microsoft.com/dotnet/aspnet:8.0-alpine AS base
 EXPOSE 80
 
-FROM mcr.microsoft.com/dotnet/sdk:7.0-alpine AS build
+FROM mcr.microsoft.com/dotnet/sdk:8.0-alpine AS build
 WORKDIR /src
 
 COPY ["Codebelt.Template.WebApp.Razor.csproj", "Codebelt.Template.WebApp.Razor/"]
-RUN dotnet restore "Codebelt.Template.WebApp.Razor/Codebelt.Template.WebApp.Razor.csproj" -s https://nuget.codebelt.net/v3/index.json -s https://api.nuget.org/v3/index.json
+RUN dotnet restore "Codebelt.Template.WebApp.Razor/Codebelt.Template.WebApp.Razor.csproj"
 
 COPY [".", "Codebelt.Template.WebApp.Razor/"]
 
